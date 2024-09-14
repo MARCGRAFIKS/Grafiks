@@ -28,7 +28,7 @@ void Game::Start()
     SDL_Rect rcBounds = {0, 0, 600, 400};
     _pGolfBallSprite[0] = new Sprite(_pGolfBallBitmap, rcBounds);
     _pGolfBallSprite[1] = new Sprite(_pGolfBallBitmap, rcBounds, BA_WRAP);
-    _pGolfBallSprite[3] = new Sprite(_pGolfBallBitmap, rcBounds, BA_BOUNCE);
+    _pGolfBallSprite[2] = new Sprite(_pGolfBallBitmap, rcBounds, BA_BOUNCE);
     _pGolfBallSprite[0]->SetVelocity(2, 1);
     _pGolfBallSprite[1]->SetVelocity(3, 2);
     _pGolfBallSprite[2]->SetVelocity(7, 4);
